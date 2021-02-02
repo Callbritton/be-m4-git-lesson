@@ -56,6 +56,7 @@ Rails.application.routes.draw do
   get '/categories', to: 'categories#index'
   get '/:category',  to: 'categories#show', param: :slug, as: "category"
 
+# Add a second comment to routes
 # Note for testing rebase!
   # RESOURCES -> previously:
 
